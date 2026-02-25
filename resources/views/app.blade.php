@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#1B7D8C">
         <meta name="description" content="EventFlow - Conference and meetup event management">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="apple-mobile-web-app-title" content="EventFlow">
+        <meta name="mobile-web-app-capable" content="yes">
 
         <title inertia>{{ config('app.name', 'EventFlow') }}</title>
 
@@ -13,8 +17,9 @@
         <link href="https://fonts.bunny.net/css?family=inter:400,500,600,700&display=swap" rel="stylesheet" />
 
         <!-- PWA -->
-        <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
-        <link rel="manifest" href="/manifest.json">
+        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
+        <link rel="manifest" href="/build/manifest.webmanifest">
 
         <!-- Scripts -->
         @routes
