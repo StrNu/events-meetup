@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="29" fill="#1B7D8C"/>
+  <text x="50%" y="45%" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="white" text-anchor="middle" dominant-baseline="middle">EF</text>
+  <text x="50%" y="65%" font-family="Arial, sans-serif" font-size="15" fill="rgba(255,255,255,0.8)" text-anchor="middle" dominant-baseline="middle">EventFlow</text>
+</svg>
